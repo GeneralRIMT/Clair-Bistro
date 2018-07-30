@@ -1,0 +1,319 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<!--Tried to make the website dynamic, might revisit later. project needed set margins.-->
+	<meta name="viewport" content="width=device-width, intial-scale=1.0">
+	<title>Clair Bistro | Reservations</title>
+	<meta name="meta" content="clairbistro, clair, bistro, restaurant, guelph, waterloo, food, tripadvisor, reviews, cambridge, southern ontario, blogto">
+	<meta name="keywords" content="clairbistro, clair, bistro, restaurant, guelph, waterloo, food, tripadvisor, reviews, cambridge, southern ontario, blogto">
+	<meta name="description" content="French-style, canadian fare is emphasized at this charming upscale bistro with exposed-brick walls. With two locations in Guelph and Waterloo, this is the place to go to for fresh, local food.">
+	<link href="https://fonts.googleapis.com/css?family=Ropa+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+	<style type="text/css">
+		header {
+			background-color: #1A1A1A;
+			height: 100px;
+		}
+		footer {
+	height: 350px;
+		}
+		nav {
+			height: 50px;
+			line-height: 50px;
+			background-color: #1A1A1A;
+			text-align: center;
+			white-space: nowrap;
+		}
+		body {
+			width: 1200px;
+			margin-left: auto;
+			margin-right: auto;
+			background-color: #1A1A1A;
+		}
+		.navbuttons{
+			font-family: Myriad Pro, arial, Times New Roman;
+			font-size: 25px;
+			color: #F0F3F2;
+			padding-right: 24px;
+			padding-left: 24px;
+			padding-bottom: 12px;
+			padding-top: 12px;
+			Margin-right: 10px;
+			text-decoration: none;
+			Border radius:10px;
+			transition: background 0.3s ease 0s, color 0.3s ease 0s;
+		}
+		.navbuttons:hover{
+			background:#1A1A1A;
+			color:#D02129;
+		}
+		.sec2a_left {
+			float: left;
+			width: 600px;
+			height: 450px;
+		}
+		.sec3a_left {
+			float: left;
+			width: 600px;
+			height: 450px;
+		}
+		.sec3a_right {
+			float: right;
+			width: 600px;
+			height: 450px;
+		}
+		.sec2a_right {
+			float: right;
+			width: 600px;
+			height: 450px;
+		}
+		.section1 {
+	height: 600px;
+	margin: auto;
+	text-align: center;
+	background-color: rgba(208,33,41,1.0);
+		}
+		#headerimagediv{
+			height:400px;
+			width:1200px;
+		}
+		#headerimagediv img{
+			transition: all .2s ease-in-out;
+		}
+		#headerimagediv:hover img{
+			-webkit-filter: brightness(70%);
+		}
+		h1 {
+	color: #000000;
+	text-align: center;
+	font-family: 'Fira Sans', sans-serif;
+	font-size: xx-large;
+	font-weight: 900;
+	padding-top: 0px;
+		}
+		p {
+		font-family: 'Ropa Sans', sans-serif;
+		color: #F0F3F2;
+		text-align: center;
+		font-size: medium;
+		letter-spacing: 1px;
+		}
+		.aside_text_boxes {
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-left: 110px;
+		padding-right: 110px;
+		}
+		.footerbolded {
+		font-family: 'Open Sans', sans-serif;
+		font-weight: bold;
+		color: #D02129;
+		}
+   		.footerheads {
+		font-family: 'Open Sans', sans-serif;
+		font-weight: bold;
+		color: #F0F3F2;
+		}
+    	.footerregtext {
+	font-family: 'Open Sans', sans-serif;
+	color: #F0F3F2;
+	text-decoration: none;
+		}
+    	.menulinktext {
+	font-family: 'Open Sans', sans-serif;
+	color: #F0F3F2;
+	text-decoration: none;
+		}
+	.menulinktext:hover {
+		text-decoration: underline;
+	}
+		table {
+		  border-collapse: separate;
+		  border-spacing: 50px 0;
+		}
+		td {
+		}
+		th {
+	text-align: left;
+	padding-bottom: 15px;
+		}
+		.topbutton {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	color: #D02129;
+	text-decoration: none;
+			}
+		
+    .reservationbox {
+	text-align: center;
+	margin-right: 300px;
+	margin-left: 300px;
+	}
+    .sec1a_left {
+	float: left;
+	width: 600px;
+}
+    .sec1a_right {
+	float: right;
+	width: 600px;
+}
+    h2 {
+	font-family: 'Fira Sans', sans-serif;
+}
+    .reservationtext {
+	headerreservation
+	color: #F0F3F2;
+	line-height: 25px;
+	padding-top: 0px;
+	text-align: center;
+	text-decoration: none;
+}
+    .headerreservation {
+	color: #000000;
+	text-align: center;
+	font-family: 'Fira Sans', sans-serif;
+	font-size: xx-large;
+	font-weight: 900 ;
+	padding-top: 24px;
+	text-decoration: none;
+}
+    .guelph_aside {
+	float: right;
+	padding-right: 45px;
+}
+    .waterloo_aside {
+	float: left;
+	padding-left: 45px;
+}
+    </style>
+</head>
+
+	<body>
+		<header> 
+			<article class="headerimage">
+				<div id="headerimagediv"> 
+					<a href="../index.html">
+						<img src="../images/clairbistro_headerhomealt.png" width="1200" height="100" alt=""/>
+					</a> 
+				</div>
+			</article> 
+		</header>
+		<nav>
+			<a class="navbuttons" href="../index.html">Home</a>
+			<a class="navbuttons" href="reservations.html">Reservations</a>
+			<a class="navbuttons" href="menu.html">Menu</a>
+			<a class="navbuttons" href="locations.html">Locations</a>
+			<a class="navbuttons" href="contact.html">Contact</a>
+			<a class="navbuttons" href="reviews.html">Reviews</a>
+		</nav>
+		<section class="section1">
+			<article class="reservationbox">
+			  <p class="headerreservation">MAKE A RESERVATION</p>
+				<p class="reservationtext">
+					Reservations are recommended. Please call us at <strong>(519) 800-5967</strong>, email us at <strong>reservations@clairbistro.com</strong> or use the contact form to request a reservation. We will get back to you as soon as possible.
+				</p>
+			</article>
+			<aside class="sec1a_left">
+				<article class="guelph_aside">
+					<h2>Guelph</h2>
+					<iframe src="https://www.opentable.ca/widget/reservation/canvas?rid=1008442&amp;type=standard&amp;theme=standard&amp;overlay=false&amp;domain=ca&amp;lang=en-CA&amp;r3abvariant=false&amp;r3uid=ByUnXzSmm&amp;newtab=false&amp;disablega=false" scrolling="no" width="225" height="300" frameborder="0"></iframe>
+				</article>
+			</aside>
+			
+			<aside class="sec1a_right">
+				<article class="waterloo_aside">
+					<h2>Waterloo</h2>
+					<iframe src="https://www.opentable.ca/widget/reservation/canvas?rid=1008442&amp;type=standard&amp;theme=standard&amp;overlay=false&amp;domain=ca&amp;lang=en-CA&amp;r3abvariant=false&amp;r3uid=ByUnXzSmm&amp;newtab=false&amp;disablega=false" scrolling="no" width="225" height="300" frameborder="0"></iframe>
+				</article>
+			</aside>
+			
+				
+		</section>
+		
+		
+		<footer>
+			<br>
+			<br>
+			<table>
+				<tr class="footerheads">
+					<th width="275">Locations</th>
+					<th width="125">Site Map</th>
+					<th width="175">General Inquiry</th>
+					<th width="625">Follow</th>
+				</tr>
+				<tr>
+				  <td class="footerbolded">Guelph</td>
+					<td class="menulinktext"><a class="menulinktext" href="../index.html">Home</a></td>
+					<td class="footerregtext">
+						<a class="menulinktext" href="mailto:info@clairbistro.com?subject=Clair Bistro Questions">info@clairbistro.com</a>
+					</td>
+					<td rowspan="6">
+						<a href="https://twitter.com/"><img src="../images/twitter_icon.png" width="100" height="100" alt=""/></a>
+						&nbsp;
+						<a href="https://www.instagram.com/"><img src="../images/instagram_icon.png" width="100" height="100" alt=""/></a>
+						&nbsp;
+						<a href="https://www.facebook.com/"><img src="../images/facebook_icon.png" width="100" height="100" alt=""/></a>
+						&nbsp;
+						<a href="https://www.tripadvisor.ca/"><img src="../images/tripadvisor_icon.png" width="100" height="100" alt=""/></a>
+					</td>
+				</tr>
+				<tr>
+				  <td class="menulinktext"><a class="menulinktext" href="https://www.google.com/maps/place/115+Doyle+Dr,+Guelph,+ON+N1G+5B4/">115 Doyle Drive</a></td>
+					<td class="menulinktext"><a class="menulinktext" href="reservations.html">Reservations</a></td>
+					<td></td>
+				</tr>
+				<tr>
+				  <td class="footerregtext">(Across Bishop Mac Arena)</td>
+					<td class="menulinktext"><a class="menulinktext" href="menu.html">Menu</a></td>
+					<td></td>
+				</tr>
+				<tr>
+				  <td class="menulinktext">
+					  <a class="menulinktext" href="tel:519-265-9899" alt="" title=""><i class="fa fa-phone"></i> (519) 265-9899</a></td>
+					<td class="menulinktext"><a class="menulinktext" href="locations.html">Locations</a></td>
+					<td></td>
+				</tr>
+				<tr>
+				  <td>&nbsp;</td>
+					<td class="menulinktext"><a class="menulinktext" href="contact.html">Contact</a></td>
+					<td></td>
+				</tr>
+				<tr>
+				  <td class="footerbolded">Waterloo</td>
+					<td class="menulinktext"><a class="menulinktext" href="reviews.html">Reviews</a></td>
+					<td class="topbutton">
+						&nbsp;
+						<a class="topbutton" href="#top" title="Go back to the top of the page">
+							<i class="fas fa-chevron-circle-up"></i> 
+							Back to top
+							<i class="fas fa-chevron-circle-up"></i>
+						</a>
+					</td>
+				</tr>
+				<tr>
+					<td class="menulinktext"><a class="menulinktext" href="https://www.google.com/maps/place/648+Ellesmere+Ct,+Waterloo,+ON+N2V+2H4/">648 Ellesmere Court</a></td>
+					<td></td>
+					<td></td>
+					<td>&nbsp;</td>
+				</tr>
+				<tr>
+					<td class="footerregtext">(Beside Atom Rec Centre)</td>
+					<td></td>
+					<td></td>
+					<td>&nbsp;</td>
+				</tr>
+				<tr>
+					<td class="menulinktext">
+						<a class="menulinktext" href="tel:519-123-4567" alt="" title=""><i class="fa fa-phone"></i> (519) 123-4567</a>
+					</td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+			</table>
+		</footer>
+</body>
+</html>
